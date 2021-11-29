@@ -21,7 +21,8 @@ video {
   width: 100%;
   height: auto;
   display: block;
-  margin-top: 2vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #layout img {
@@ -34,6 +35,8 @@ video {
   width: 100%;
   height: 0;
   padding-top: 56.25%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 iframe {
@@ -41,6 +44,12 @@ iframe {
   height: 100%;
   width: 100%;
   inset: 0;
+}
+
+#youtubeframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: auto;
 }
 
 main {
@@ -160,23 +169,6 @@ p {
   padding-bottom: -2rem;
   margin-top: -1rem;
   line-height: 1.3em;
-}
-
-video {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.iframe_wrapper {
-  position: relative;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-#youtubeframe {
-  aspect-ratio: 16/9;
-  width: 100%;
-  height: auto;
 }
 
 @media (min-width: 800px) {
