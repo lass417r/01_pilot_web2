@@ -106,7 +106,7 @@ a {
   text-decoration: none;
   font-weight: 400;
   letter-spacing: 0.2em;
-  color: red;
+  color: #fff;
   font-size: 1rem;
   margin-bottom: 0.3rem;
 }
@@ -136,39 +136,39 @@ p {
 }
 
 #section1 {
-  background-image: url(Content/sofa2.jpg);
+  position: static;
+  background-image: url(Content/sofa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
   height: 700px;
-  margin-top: 2rem;
+  margin-top: 0rem;
   margin-bottom: 3rem;
 }
 
-#section1 #h1wrap1 h1 {
+#section1 #h1wrap1 {
+  position: static;
   font-family: "Halant", serif;
   text-decoration: none;
   font-weight: 300;
   letter-spacing: 0.1em;
   color: white;
-  font-size: 0.3rem;
-  margin-bottom: 0.01rem;
-  margin-top: -5rem;
-  padding-top: -1rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+  margin-left: 1rem;
 }
 
 #section1 #h1wrap2 h1 {
+  position: static;
   font-family: "Halant", serif;
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 0.1em;
-  color: rgb(247, 12, 188);
-  font-size: 3rem;
-  margin-bottom: -2rem;
-  padding-bottom: -2rem;
-  margin-top: -1rem;
-  line-height: 1.3em;
+  color: rgb(0, 68, 11);
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  margin-left: 1rem;
 }
 
 @media (min-width: 800px) {
@@ -183,28 +183,28 @@ p {
   }
 
   #section1 #h1wrap1 h1 {
+    position: static;
     font-family: "Halant", serif;
     text-decoration: none;
     font-weight: 700;
-
     color: white;
     font-size: 3rem;
-    margin-bottom: 1rem;
-    margin-left: 2.5rem;
+    margin-top: 0%;
+    margin-bottom: -1rem;
+    margin-left: 3rem;
   }
 
   #section1 #h1wrap2 h1 {
+    position: static;
     font-family: "Halant", serif;
     text-decoration: none;
     font-weight: 700;
-
     color: rgb(0, 68, 11);
     font-size: 5rem;
-    margin-bottom: -2rem;
-    padding-bottom: -2rem;
-    margin-top: -2rem;
-    margin-left: 2rem;
     line-height: 1em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 3rem;
   }
   #speciel_h2 {
     text-align: left;
@@ -226,6 +226,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    padding: 0%;
   }
 
   #section4 #image3 {
